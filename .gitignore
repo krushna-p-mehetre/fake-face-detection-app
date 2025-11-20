@@ -1,0 +1,22 @@
+# Python virtual environments
+venv/
+venv310/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code folder
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large model files not used
+models/*.h5
