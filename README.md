@@ -1,58 +1,61 @@
-🕵️‍♂️ Fake vs Real Face Detection (Deepfake Detector)
+<h1>🕵️‍♂️ Fake vs Real Face Detection (Deepfake Detector)</h1>
 
-This project checks whether a face in an image is real or fake.
-It uses a trained ResNet deep-learning model along with a clean and simple Streamlit web app.
+<p>
+This project checks whether a face in an image is <strong>real or fake</strong>.<br>
+It uses a trained <strong>ResNet deep-learning model</strong> along with a clean and simple <strong>Streamlit web app</strong>.<br>
 The user can upload any photo, and the system will detect the face and classify it.
+</p>
 
-🚀 Features
+<hr>
 
-Detects human faces in an image using OpenCV
+<h2>🚀 Features</h2>
+<ul>
+  <li>Detects human faces in an image using OpenCV</li>
+  <li>Classifies each face as <strong>Real</strong> or <strong>Fake</strong></li>
+  <li>Easy-to-use Streamlit web app</li>
+  <li>Clean and modern UI</li>
+  <li>Works offline and online</li>
+  <li>Fast and optimized model</li>
+  <li>Supports JPG, PNG, JPEG images</li>
+</ul>
 
-Classifies each face as Real or Fake
+<hr>
 
-Easy-to-use Streamlit web app
+<h2>🧠 How It Works</h2>
+<ol>
+  <li>The user uploads an image in the Streamlit app.</li>
+  <li>OpenCV finds the face in the image.</li>
+  <li>The face is resized and prepared for the model.</li>
+  <li>The trained ResNet model predicts if the face is <strong>Real</strong> or <strong>Fake</strong>.</li>
+  <li>The result is shown clearly on the app screen.</li>
+</ol>
 
-Clean and modern UI
+<hr>
 
-Works on your local computer as well as online
+<h2>🛠️ Tech Stack</h2>
 
-Fast and optimized model
+<h3>Frontend / UI</h3>
+<ul>
+  <li>Streamlit</li>
+</ul>
 
-Supports common image formats (JPG, PNG, JPEG)
+<h3>Machine Learning</h3>
+<ul>
+  <li>TensorFlow / Keras</li>
+  <li>ResNet50 (fine-tuned)</li>
+  <li>GAN-based training (optional)</li>
+</ul>
 
-🧠 How It Works
+<h3>Computer Vision</h3>
+<ul>
+  <li>OpenCV</li>
+  <li>Haarcascade Face Detection</li>
+</ul>
 
-The user uploads an image in the Streamlit app.
+<h3>Others</h3>
+<ul>
+  <li>NumPy</li>
+  <li>Python 3.10</li>
+</ul>
 
-OpenCV finds the face in the image.
-
-The face is resized and prepared for the model.
-
-The trained ResNet model predicts if the face is Real or Fake.
-
-The result is shown clearly on the screen.
-
-🛠️ Tech Stack
-Frontend / UI
-
-Streamlit
-
-Machine Learning
-
-TensorFlow / Keras
-
-ResNet50 (fine-tuned model)
-
-GAN-based training (optional)
-
-Computer Vision
-
-OpenCV
-
-Haarcascade face detection
-
-Others
-
-NumPy
-
-Python 3.10
+<hr>
