@@ -27,7 +27,7 @@ def preprocess_image(image):
 
 # Streamlit UI 
 st.set_page_config(
-    page_title="Fake vs Real Detector",
+    page_title="Fake Face Detection App",
     page_icon="🕵️",
     layout="centered",
 )
